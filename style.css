@@ -1,0 +1,96 @@
+/* Reset margin and padding for all elements */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for heading with ID heading1 */
+#heading1{
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/* Style for body of the document */
+body{
+    text-align: center;
+    background-color: gray;
+}
+
+/* Conatainer for centering the game board vertically and horizontally */
+.container{
+    height: 70hv;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style for the game board */
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+/* Style for each box*/
+.box{
+    height:18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgb(0, 0, 0);
+    font-size: 8vmin;
+    color: #d71313;
+    background-color: rgb(223, 230, 191);
+
+}
+
+/* Style for the reset button */
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: rgb(19,19,13);
+    color: white;
+    border-radius: 1rem;
+    border: none;
+}
+
+/* Style for the new game */
+#reset-new{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: rgb(19,19,13);
+    color: white;
+    border-radius: 1rem;
+    border: none;
+}
+
+/* Style for message container */
+.print-msg{
+    height: 20vmin;
+}
+
+/* Style for message text */
+#msg{
+    color: azure;
+    font-size: 5vmin;
+}
+
+/* Hide elements with this class */
+.hide{
+    display: none;
+}
+
+/* Style to change Player X color with class x */
+.box.x{
+    color: red;
+}
+
+/* Style to change Player O color with class o */
+.box.o{
+    color: blue;
+}

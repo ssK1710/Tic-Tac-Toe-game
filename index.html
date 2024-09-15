@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Container for displaying messages and game status -->
+    <div class="print-msg hide">
+        <p id="msg">Winner</p> <!-- Paragrapgh to display winner or draw message -->
+        <button id="reset-new">New Game</button> <!-- Button to start a new game -->
+    </div>
+
+    <main>
+        <!-- Main heading of the page -->
+    <h1 id="heading1">Tic Tac Toe</h1>
+    <!-- Container for the game board -->
+    <div class="container">
+        <!-- Game board conatainer with 9 buttons -->
+        <div class="game">
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+        </div>
+    </div>
+    </main>
+    <!-- Button to reset the game -->
+    <button id="reset-btn">RESET</button>
+    
+    <!-- Link to the external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
