@@ -29,12 +29,12 @@ To get started with this project, you need to have a basic web development envir
 
 1. **Clone the Repository**:
    git clone https://github.com/your-username/tic-tac-toe.git
-   Note- Replace `your-username` with your GitHub username.
+   (Note- Replace `your-username` with your GitHub username.)
 
-2. **Navigate to the Project Directory**:
+3. **Navigate to the Project Directory**:
    cd tic-tac-toe
 
-3. **Open the Project**:
+4. **Open the Project**:
    Open `index.html` in your preferred web browser to start playing the game.
 
 ## Usage
